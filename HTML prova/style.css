@@ -1,0 +1,72 @@
+.menu{
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.menu ul li:hover{
+    background-color:red;
+    border-radius: 10px;
+}
+body{
+  background-color: black;
+  margin: 0%;
+  color: white;
+  justify-content: center;
+}
+.menu ul {
+    flex-direction: row;
+    display: flex;    
+    justify-content: center;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 20px;
+    color: white ;
+    font-size: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;}
+
+.buttins{
+   display:flex;
+   border-radius: 15px;
+   padding: 10px;
+   align-items: center;
+   flex-direction: row;
+}
+#mais{
+    flex-direction: row;
+    display: flex;
+    background-color: black;
+    border-radius: 15px;
+    color: red;
+    border:2px solid red;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#menos{
+    background-color: red;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+#mais:hover{
+   color: white;
+
+}
+#menos:hover{
+    color: black;
+ 
+ }
+ main{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
